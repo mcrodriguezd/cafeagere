@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Base Typography*/
+body {
+  height: 150vh;
+}
+
+/*pages
+@import 'pages/home';
+@import 'pages/contact';*/
+/*themes
+@import 'themes/theme';
+@import 'themes/admin';*/
+
+/*# sourceMappingURL=main.css.map */
