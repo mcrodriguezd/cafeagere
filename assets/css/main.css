@@ -36,7 +36,7 @@ body {
   display: inline-block;
 }
 
-.container2 {
+.main__container2 {
   float: right;
   width: 450px;
   height: 300px;
@@ -47,8 +47,7 @@ body {
   position: relative;
   clear: right;
 }
-
-.container1 {
+.main__container1 {
   width: 35%;
   float: left;
   height: 300px;
@@ -58,7 +57,7 @@ body {
   clear: left;
 }
 
-.img3 {
+.floating__img3 {
   float: right;
   width: 100px;
   height: 200px;
@@ -70,8 +69,7 @@ body {
   left: 5%;
   z-index: 1;
 }
-
-.img4 {
+.floating__img4 {
   float: right;
   width: 350px;
   height: 250px;
@@ -84,8 +82,7 @@ body {
   bottom: 180px;
   z-index: 1;
 }
-
-.box1 {
+.floating__box1 {
   float: inherit;
   width: 100px;
   height: 100px;
@@ -96,8 +93,7 @@ body {
   bottom: 8rem;
   z-index: 1;
 }
-
-.box2 {
+.floating__box2 {
   float: inherit;
   width: 110px;
   height: 110px;
@@ -108,12 +104,10 @@ body {
   bottom: 13.1rem;
   z-index: 0;
 }
-
-.fa {
+.floating__fa {
   z-index: 2;
 }
-
-.box3 {
+.floating__box3 {
   float: inherit;
   width: 440px;
   height: 110px;
@@ -124,8 +118,7 @@ body {
   bottom: 20rem;
   z-index: 0;
 }
-
-.box4 {
+.floating__box4 {
   float: inherit;
   width: 440px;
   height: 260px;
@@ -136,8 +129,7 @@ body {
   bottom: 20rem;
   z-index: 0;
 }
-
-.box5 {
+.floating__box5 {
   float: inherit;
   width: 440px;
   height: 100px;
@@ -148,8 +140,7 @@ body {
   bottom: 43rem;
   z-index: 0;
 }
-
-.details {
+.floating__box5__details {
   display: inline-block;
   width: 30%;
   font-family: "Roboto", sans-serif;

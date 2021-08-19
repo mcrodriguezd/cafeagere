@@ -1,4 +1,6 @@
-.img3 {
+.floating{
+
+&__img3 {
     float: right;
     width:100px;
     height:200px;
@@ -13,7 +15,7 @@
 }
 
 
-.img4{
+&__img4{
     float: right;
     width:350px;
     height:250px;
@@ -27,7 +29,7 @@
     z-index: 1;
 }
 
-.box1{
+&__box1{
     float: inherit;
     width:100px;
     height:100px;
@@ -39,7 +41,7 @@
      z-index: 1;
 }
 
-.box2{
+&__box2{
     float: inherit;
     width:110px;
     height:110px;
@@ -51,13 +53,13 @@
     z-index: 0;
 }
 
-.fa{
+&__fa{
     z-index: 2;
     
 }
 
 
-.box3{
+&__box3{
     float: inherit;
     width:440px;
     height:110px;
@@ -69,7 +71,7 @@
     z-index: 0;
 }
 
-.box4{
+&__box4{
     float: inherit;
     width:440px;
     height:260px;
@@ -81,7 +83,7 @@
     z-index: 0;
 }
 
-.box5{
+&__box5{
     float: inherit;
     width:440px;
     height:100px;
@@ -91,13 +93,16 @@
     left:28.7rem;
     bottom:43rem;
     z-index: 0;
+
+    &__details{
+        display: inline-block;
+        width: 30%;
+        font-family: $fuente-roboto;
+        font-size: 14px;
+        text-align: center;
+    
+    }   
 }
 
-.details{
-    display: inline-block;
-    width: 30%;
-    font-family: $fuente-roboto;
-    font-size: 14px;
-    text-align: center;
 
 }

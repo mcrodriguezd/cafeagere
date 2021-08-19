@@ -1,4 +1,6 @@
-.container2{
+.main{
+
+&__container2{
     float: right;
     width:450px;
     height:300px;
@@ -11,7 +13,7 @@
     }  
 
  
-.container1{
+&__container1{
         width: 35%;
         float: left;
         height:300px;
@@ -22,4 +24,4 @@
         
     }
 
-    
+}
