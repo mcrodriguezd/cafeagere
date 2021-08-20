@@ -53,8 +53,9 @@
     z-index: 0;
 }
 
-&__fa{
-    z-index: 2;
+&__icon{
+    z-index: 3;
+    top: 300px
     
 }
 
@@ -94,15 +95,23 @@
     bottom:43rem;
     z-index: 0;
 
-    &__details{
-        display: inline-block;
-        width: 30%;
-        font-family: $fuente-roboto;
-        font-size: 14px;
-        text-align: center;
-    
-    }   
-}
+&__container{
+display: inline-block;
+width: 30%;
 
+    &__details{
+        font-family: $fuente-roboto;
+        font-size: $x-large;
+        text-align: center;
+    }
+    
+    &__text{
+        padding: 1px 10px 1px 10px;
+        text-align: center;
+    }
+
+
+}
+}
 
 }

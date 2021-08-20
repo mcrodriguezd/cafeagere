@@ -31,6 +31,10 @@ body {
   height: 150vh;
 }
 
+.navbar {
+  padding-left: 40px;
+}
+
 .tittle {
   padding-left: 2%;
   display: inline-block;
@@ -104,8 +108,9 @@ body {
   bottom: 13.1rem;
   z-index: 0;
 }
-.floating__fa {
-  z-index: 2;
+.floating__icon {
+  z-index: 3;
+  top: 300px;
 }
 .floating__box3 {
   float: inherit;
@@ -140,15 +145,21 @@ body {
   bottom: 43rem;
   z-index: 0;
 }
-.floating__box5__details {
+.floating__box5__container {
   display: inline-block;
   width: 30%;
+}
+.floating__box5__container__details {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 30px;
+  text-align: center;
+}
+.floating__box5__container__text {
+  padding: 1px 10px 1px 10px;
   text-align: center;
 }
 
-.btn {
+.navbar__btn {
   border-radius: 0%;
   font-family: "PT Mono", monospace;
 }
