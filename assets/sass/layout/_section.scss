@@ -85,6 +85,7 @@
         left:27rem;
         bottom:34rem;
         z-index: 0;
+        padding-right: 3%;
     
     &__container{
     display: inline-block;
@@ -92,9 +93,10 @@
     padding-top: 3%;
     
         &__details{
-            font-family: $fuente-roboto;
+            font-family: $fuente-mono;
             font-size: $x-large;
             text-align: center;
+           
         }
         
         &__text{
@@ -106,5 +108,23 @@
     
     }
     }
-    
     }
+
+    
+@media (max-width: 500px) {
+    .floating__img3,
+    .floating__box1,
+    .floating__box2,
+    .floating__box4 {
+   display: none;
+    }
+}
+
+@media (max-width: 500px) {
+        .floating__box5__container {
+        width: 50%;
+        text-align: center;
+        padding: 0%;
+        float: left;
+    }
+}

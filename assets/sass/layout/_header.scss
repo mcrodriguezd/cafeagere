@@ -3,3 +3,12 @@
     display: inline-block;
     
 }
+
+@media (max-width: 500px) {
+    .header {
+    width: 100%;
+    text-align: justify;
+    padding: 0%;
+
+    }
+}

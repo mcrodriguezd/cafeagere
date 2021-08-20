@@ -26,5 +26,22 @@
        
         
     }
+ 
 
+}
+
+@media (max-width: 500px) {
+    .main__container1 
+     {
+    width: 100%;
+    text-align: justify;
+    height: 0%;
+    padding-right: 0%;
+    }
+    .main__container2
+    {
+        width: 100%;
+           padding: 0%;
+    
+        }
 }
