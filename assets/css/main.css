@@ -31,6 +31,10 @@ body {
   height: 150vh;
 }
 
+.navbar {
+  padding-left: 40px;
+}
+
 .tittle {
   padding-left: 2%;
   display: inline-block;
@@ -38,8 +42,8 @@ body {
 
 .main__container2 {
   float: right;
-  width: 450px;
-  height: 300px;
+  width: 28.1rem;
+  height: 20rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("/assets/img/img-2.png");
@@ -48,44 +52,45 @@ body {
   clear: right;
 }
 .main__container1 {
-  width: 35%;
+  width: 50%;
   float: left;
-  height: 300px;
+  height: 20rem;
   vertical-align: middle;
   position: relative;
-  padding: 5%;
+  padding: 5% 20% 5% 5%;
   clear: left;
 }
 
 .floating__img3 {
   float: right;
-  width: 100px;
-  height: 200px;
+  width: 6rem;
+  height: 16.4rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("/assets/img/img-3.png");
   background-size: cover;
   position: relative;
   left: 5%;
+  top: 0.9rem;
   z-index: 1;
 }
 .floating__img4 {
   float: right;
-  width: 350px;
-  height: 250px;
+  width: 25rem;
+  height: 18rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("/assets/img/img-4.png");
   background-size: cover;
   position: relative;
-  left: -5%;
-  bottom: 180px;
+  right: 32rem;
+  bottom: 18rem;
   z-index: 1;
 }
 .floating__box1 {
   float: inherit;
-  width: 100px;
-  height: 100px;
+  width: 7rem;
+  height: 7rem;
   background-size: 100% 100%;
   background-color: #E4572E;
   position: relative;
@@ -95,8 +100,8 @@ body {
 }
 .floating__box2 {
   float: inherit;
-  width: 110px;
-  height: 110px;
+  width: 7rem;
+  height: 7rem;
   background-size: 100% 100%;
   background-color: #F1DD7B;
   position: relative;
@@ -104,13 +109,14 @@ body {
   bottom: 13.1rem;
   z-index: 0;
 }
-.floating__fa {
-  z-index: 2;
+.floating__icon {
+  z-index: 3;
+  top: 300px;
 }
 .floating__box3 {
   float: inherit;
-  width: 440px;
-  height: 110px;
+  width: 27.5rem;
+  height: 7rem;
   background-size: 100% 100%;
   background-color: #FFF;
   position: relative;
@@ -120,8 +126,8 @@ body {
 }
 .floating__box4 {
   float: inherit;
-  width: 440px;
-  height: 260px;
+  width: 28rem;
+  height: 16.3rem;
   background-size: 100% 100%;
   background-color: #3C91E6;
   position: relative;
@@ -131,8 +137,8 @@ body {
 }
 .floating__box5 {
   float: inherit;
-  width: 440px;
-  height: 100px;
+  width: 27.5rem;
+  height: 5rem;
   background-size: 100% 100%;
   background-color: #FFF;
   position: relative;
@@ -140,15 +146,21 @@ body {
   bottom: 43rem;
   z-index: 0;
 }
-.floating__box5__details {
+.floating__box5__container {
   display: inline-block;
   width: 30%;
+}
+.floating__box5__container__details {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 30px;
+  text-align: center;
+}
+.floating__box5__container__text {
+  padding: 1px 10px 1px 10px;
   text-align: center;
 }
 
-.btn {
+.navbar__btn {
   border-radius: 0%;
   font-family: "PT Mono", monospace;
 }

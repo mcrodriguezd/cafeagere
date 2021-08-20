@@ -2,8 +2,9 @@
 
 &__container2{
     float: right;
-    width:450px;
-    height:300px;
+    
+    width:28.1rem;
+    height:20rem;
     background-size: 100% 100%;
     background-repeat:no-repeat;
     background-image: url("/assets/img/img-2.png");
@@ -14,12 +15,12 @@
 
  
 &__container1{
-        width: 35%;
+        width: 50%;
         float: left;
-        height:300px;
+        height:20rem;
         vertical-align: middle;
         position: relative;
-        padding: 5%;
+        padding: 5% 20% 5% 5%;
         clear: left;
         
     }
