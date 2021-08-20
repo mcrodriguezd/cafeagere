@@ -42,14 +42,15 @@ body {
 
 .main__container2 {
   float: right;
-  width: 28.1rem;
-  height: 20rem;
+  width: 20.5rem;
+  height: 15rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("/assets/img/img-2.png");
   background-size: cover;
   position: relative;
   clear: right;
+  z-index: 2;
 }
 .main__container1 {
   width: 50%;
@@ -64,27 +65,27 @@ body {
 .floating__img3 {
   float: right;
   width: 6rem;
-  height: 16.4rem;
+  height: 10rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("/assets/img/img-3.png");
   background-size: cover;
   position: relative;
   left: 5%;
-  top: 0.9rem;
-  z-index: 1;
+  top: 0rem;
+  z-index: 2;
 }
 .floating__img4 {
   float: right;
-  width: 25rem;
-  height: 18rem;
+  width: 27rem;
+  height: 6rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("/assets/img/img-4.png");
   background-size: cover;
   position: relative;
-  right: 32rem;
-  bottom: 18rem;
+  right: 24rem;
+  bottom: 14rem;
   z-index: 1;
 }
 .floating__box1 {
@@ -106,49 +107,39 @@ body {
   background-color: #F1DD7B;
   position: relative;
   left: 56.2rem;
-  bottom: 13.1rem;
+  bottom: 13rem;
   z-index: 0;
 }
 .floating__icon {
   z-index: 3;
   top: 300px;
 }
-.floating__box3 {
-  float: inherit;
-  width: 27.5rem;
-  height: 7rem;
-  background-size: 100% 100%;
-  background-color: #FFF;
-  position: relative;
-  left: 28.7rem;
-  bottom: 20rem;
-  z-index: 0;
-}
 .floating__box4 {
   float: inherit;
-  width: 28rem;
-  height: 16.3rem;
+  width: 29.2rem;
+  height: 13rem;
   background-size: 100% 100%;
   background-color: #3C91E6;
   position: relative;
-  left: 28.7rem;
-  bottom: 20rem;
+  left: 27rem;
+  bottom: 14rem;
   z-index: 0;
 }
 .floating__box5 {
   float: inherit;
-  width: 27.5rem;
-  height: 5rem;
+  width: 30rem;
+  height: 7rem;
   background-size: 100% 100%;
   background-color: #FFF;
   position: relative;
-  left: 28.7rem;
-  bottom: 43rem;
+  left: 27rem;
+  bottom: 34rem;
   z-index: 0;
 }
 .floating__box5__container {
   display: inline-block;
-  width: 30%;
+  width: 31%;
+  padding-top: 3%;
 }
 .floating__box5__container__details {
   font-family: "Roboto", sans-serif;
@@ -156,8 +147,9 @@ body {
   text-align: center;
 }
 .floating__box5__container__text {
-  padding: 1px 10px 1px 10px;
+  padding: 1px 12px 1px 12px;
   text-align: center;
+  font-size: 16px;
 }
 
 .navbar__btn {

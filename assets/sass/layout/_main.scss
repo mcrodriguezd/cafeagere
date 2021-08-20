@@ -1,16 +1,17 @@
+
 .main{
 
 &__container2{
     float: right;
-    
-    width:28.1rem;
-    height:20rem;
+    width:20.5rem;
+    height:15rem;
     background-size: 100% 100%;
     background-repeat:no-repeat;
     background-image: url("/assets/img/img-2.png");
     background-size: cover;
     position: relative;
     clear:right;
+    z-index: 2;
     }  
 
  
@@ -22,6 +23,7 @@
         position: relative;
         padding: 5% 20% 5% 5%;
         clear: left;
+       
         
     }
 

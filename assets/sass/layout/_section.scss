@@ -1,118 +1,110 @@
 .floating{
 
-&__img3 {
-    float: right;
-    width:6rem;
-    height:16.4rem;
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
-    background-image: url("/assets/img/img-3.png");
-    background-size: cover;
-    position: relative;
-    left: 5%;
-    top: 0.9rem;
-    z-index: 1
-
-}
-
-
-&__img4{
-    float: right;
-    width:25rem;
-    height:18rem;
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
-    background-image: url("/assets/img/img-4.png");
-    background-size: cover;
-    position: relative;
-    right: 32rem;
-    bottom: 18rem;
-    z-index: 1;
-}
-
-&__box1{
-    float: inherit;
-    width:7rem;
-    height:7rem;
-    background-size: 100% 100%;
-    background-color: $flame;
-     position: relative;
-     left:55rem;
-     bottom:8rem;
-     z-index: 1;
-}
-
-&__box2{
-    float: inherit;
-    width:7rem;
-    height:7rem;
-    background-size: 100% 100%;
-    background-color: $buff;
-    position: relative;
-    left:56.2rem;
-    bottom:13.1rem;
-    z-index: 0;
-}
-
-&__icon{
-    z-index: 3;
-    top: 300px
+    &__img3 {
+        float: right;
+        width:6rem;
+        height:10rem;
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        background-image: url("/assets/img/img-3.png");
+        background-size: cover;
+        position: relative;
+        left: 5%;
+        top: 0rem;
+        z-index: 2;
     
-}
-
-
-&__box3{
-    float: inherit;
-    width:27.5rem;
-    height:7rem;
-    background-size: 100% 100%;
-    background-color: $white;
-    position: relative;
-    left:28.7rem;
-    bottom:20rem;
-    z-index: 0;
-}
-
-&__box4{
-    float: inherit;
-    width:28rem;
-    height:16.3rem;
-    background-size: 100% 100%;
-    background-color: $blue-france;
-    position: relative;
-    left:28.7rem;
-    bottom:20rem;
-    z-index: 0;
-}
-
-&__box5{
-    float: inherit;
-    width:27.5rem;
-    height:5rem;
-    background-size: 100% 100%;
-    background-color: $white;
-    position: relative;
-    left:28.7rem;
-    bottom:43rem;
-    z-index: 0;
-
-&__container{
-display: inline-block;
-width: 30%;
-
-    &__details{
-        font-family: $fuente-roboto;
-        font-size: $x-large;
-        text-align: center;
     }
     
-    &__text{
-        padding: 1px 10px 1px 10px;
-        text-align: center;
+    
+    &__img4{
+        float: right;
+        width:27rem;
+        height:6rem;
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        background-image: url("/assets/img/img-4.png");
+        background-size: cover;
+        position: relative;
+        right: 24rem;
+        bottom: 14rem;
+        z-index: 1;
     }
-
-
-}
-}
-
-}
+    
+    &__box1{
+        float: inherit;
+        width:7rem;
+        height:7rem;
+        background-size: 100% 100%;
+        background-color: $flame;
+         position: relative;
+         left:55rem;
+         bottom:8rem;
+         z-index: 1;
+    }
+    
+    &__box2{
+        float: inherit;
+        width:7rem;
+        height:7rem;
+        background-size: 100% 100%;
+        background-color: $buff;
+        position: relative;
+        left:56.2rem;
+        bottom:13rem;
+        z-index: 0;
+    }
+    
+    &__icon{
+        z-index: 3;
+        top: 300px
+        
+    }
+    
+    
+  
+    
+    &__box4{
+        float: inherit;
+        width:29.2rem;
+        height:13rem;
+        background-size: 100% 100%;
+        background-color: $blue-france;
+        position: relative;
+        left:27rem;
+        bottom:14rem;
+        z-index: 0;
+    }
+    
+    &__box5{
+        float: inherit;
+        width:30rem;
+        height:7rem;
+        background-size: 100% 100%;
+        background-color: $white;
+        position: relative;
+        left:27rem;
+        bottom:34rem;
+        z-index: 0;
+    
+    &__container{
+    display: inline-block;
+    width: 31%;
+    padding-top: 3%;
+    
+        &__details{
+            font-family: $fuente-roboto;
+            font-size: $x-large;
+            text-align: center;
+        }
+        
+        &__text{
+            padding: 1px 12px 1px 12px;
+            text-align: center;
+            font-size: 16px;
+        }
+    
+    
+    }
+    }
+    
+    }
