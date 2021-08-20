@@ -70,7 +70,7 @@ body {
   background-image: url("/assets/img/img-3.png");
   background-size: cover;
   position: relative;
-  left: 12%;
+  left: 5%;
   top: 0.9rem;
   z-index: 1;
 }
